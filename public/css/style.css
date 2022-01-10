@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 800px;
+    width: 100%;
+    background-image: url("../image/depositphotos_19545001-stock-illustration-abstract-music-background.jpeg");
+    background-size: cover;
+}
+.navbartop{
+    height: 100px;
+    width: 100%;
+    background-color:transparent;
+}
+.navbartop .logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: 'The Nautigal', cursive;
+    color: #73a905;
+}
+.navbar{
+    float: right;
+    margin-top: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+.navbar ul li a{
+    padding: 10px;
+ text-decoration: none;
+ font-size: 30px;
+ font-family: 'Licorice', cursive;
+ color: #73a905;
+ border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(212, 185, 212);
+}
+.backgroundimg{
+    float: right;
+    margin-right:50px;
+    font-family: 'The Nautigal', cursive;
+    font-size: 60px;
+    color: #c53a90;
+}
