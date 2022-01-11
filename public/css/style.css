@@ -17,9 +17,11 @@
     float: left;
     margin-top: 10px;
     margin-left: 40px;
-    font-size: 40px;
     font-family: 'The Nautigal', cursive;
     color: #73a905;
+}
+.logo label h1{
+    font-size: 60px !important;
 }
 .navbar{
     float: right;
@@ -48,6 +50,27 @@ a:hover{
     float: right;
     margin-right:50px;
     font-family: 'The Nautigal', cursive;
-    font-size: 60px;
+    font-size: 60px !important;
     color: #c53a90;
+}
+.backgroundimg .write h1{
+    font-size: 100px !important;
+}
+.topplay{
+    margin: auto;
+    background-color: #c53a90;
+    width: 20%;
+    height: 80px;
+    
+}
+.playOrpause{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.playback{
+   
+}
+.forward{
+   
 }

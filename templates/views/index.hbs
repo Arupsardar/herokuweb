@@ -1,9 +1,18 @@
 {{>header}}
 <div class="playbody">
     <div class="topplay">
-        <div class="playback"></div>
-        <div class="playOrpause"></div>
+        <span class="playback"><i class="fas fa-backward"></i>
+        </span>
+        <span class="playOrpause"><i id="playORpause" class="fas fa-play"></i></span>
+        <span class="forward"><i class="fas fa-forward"></i>
+        </span>
+        
     </div>
+    <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+            </div>
+        </div>
 
 </div>
 <div class="contain">
@@ -20,10 +29,9 @@
                             <div class="albamName">
                                 <h1>Dhadak</h1>
                             </div>
-                            <div class="statas">
-
-
-                            </div>
+                            <span class="statas">
+                                <i class="fas fa-play"></i>
+                            </span>
 
                         </div>
                     </div>
